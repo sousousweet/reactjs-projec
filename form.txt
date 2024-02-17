@@ -1,0 +1,24 @@
+const LoginForm = () => {
+  return (
+    <form  style={{margin:30}}>
+      <div>
+        
+        <label htmlFor="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        
+      </div>
+      <br />
+     
+      <div>
+        
+        <label htmlFor="password">Password:</label>
+        <input type="password" name="password" id="password" />
+        
+      </div>
+      <br />
+      <button>Login</button>
+    </form>
+  )
+}
+
+export default LoginForm
